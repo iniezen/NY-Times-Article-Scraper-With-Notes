@@ -23,7 +23,7 @@ app.use(express.static('public'));
 
 
 // Database configuration with mongoose
-mongoose.connect('mongodb://localhost/nytimestest');
+mongoose.connect('mongodb://heroku_jqfgzpfh:25suu02p9b7m17v5k52gq91dn3@ds145667.mlab.com:45667/heroku_jqfgzpfh');
 var db = mongoose.connection;
 
 // show any mongoose errors
